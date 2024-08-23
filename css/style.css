@@ -115,9 +115,105 @@ div.desc{
 
 }
 input[type="number"]{
-    width: 10%;
+    width: 15%;
 }
 
 .video{
     width: 100%;
+}
+.container-2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.container-2 div{
+    padding: 25px;
+    width: 50%;
+}
+
+.metodo-pago{
+    margin: 0 50px;
+    width: 25%;
+}
+.imagen-input{
+    text-align: center;
+}
+
+.container-3{
+    width: 40%;
+    padding: 16px;
+    margin: 10% auto;
+}
+
+hr{
+    width: 40%;
+    margin: 0;
+    opacity: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.divPago{
+    border: 1px solid rgba(119, 119, 119, 0.5);
+    border-radius: 15px;
+    width: 70%;
+
+}
+
+.divDatosOperacion{
+    width: 25%;
+    background-color: #F8F8F8;
+    border: 1px solid rgba(119, 119, 119, 0.5);
+    border-radius: 10px;
+
+}
+
+.boton-pagar,.boton-cancelar,.botonTramitar{
+    background-color: #1118a8;
+    color: #F8F8F8;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 45px;
+}
+
+.boton-cancelar{
+    background-color: #838383;
+}
+
+.divPago input[type="number"]{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.containerPago{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.containerPago div{
+    margin: 30px;
+    padding: 25px;
+}
+
+.botonTramitar{
+    background-color: #151515;
+}
+
+td{
+    height: 50px;
+}
+
+.textoCentrado{
+    text-align: center;
 }
